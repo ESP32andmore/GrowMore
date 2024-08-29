@@ -9,7 +9,6 @@ Don’t be tied to one fan or lighting manufacturer’s devices or limited contr
 <img src="DesignFiles/3D_top_3_2.jpg" width=400> <img src="DesignFiles/3D_bot_3_2.jpg" width=400>
 
 ## Versions
-
 The GrowMore Hub comes in two versions, first the GrowMore Display Hub with a 2.4” LCD display and touchscreen, that allows device local monitoring and control through the touchscreen, and the second a headless GrowMore Standard Hub for remote control configurations. Moreover, you will be able to control and monitor any headless GrowMore Standard Hub, from one GrowMore Display Hub as well as the locally attached devices and sensors (currently in Beta).
 
 ##Software
