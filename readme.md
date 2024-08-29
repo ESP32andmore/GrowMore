@@ -11,20 +11,20 @@ Don’t be tied to one fan or lighting manufacturer’s devices or limited contr
 ## Versions
 The GrowMore Hub comes in two versions, first the GrowMore Display Hub with a 2.4” LCD display and touchscreen, that allows device local monitoring and control through the touchscreen, and the second a headless GrowMore Standard Hub for remote control configurations. Moreover, you will be able to control and monitor any headless GrowMore Standard Hub, from one GrowMore Display Hub as well as the locally attached devices and sensors (currently in Beta).
 
-##Software
+## Software
 The GrowMore Hub allows manual setting of fan speeds or lighting intensity setting though its LCD display, or remotely via the network with the webserver interface, HTTP API, MQTT or HA API. You can also access temperature/humidity/pressure (depending on attached sensors) reading through the same interfaces, allowing easy integration into your own control system and algorithms.
 
 Or in the alternative set one or all of the GrowMore Hub’s ports to “Auto Mode”, in which it will use its built-in PID algorithms to maintain a target temperature or humidity and automatically turn on, turn off, or set a devices levels based on a programmed schedule. Over-temperature or under-temperature alarms are also available as well as performance monitoring and detection of failed devices.
 
-##Cases
+## Cases
 Both versions of the GrowMore Hub come in custom cases that can be attached to surfaces with two M3 screws or by its magnet base to ferrous metal surfaces.
 
-##Highly Customizable
+## Highly Customizable
 The GrowMore Hub utilizes the ESPhome system software which provides an open-source environment and that allows sophisticated customers complete control over the operation of the device and integration into environments we may not currently support. The graphical user interface is programmed in LVGL for easy modifications.
 
 For this, the GrowMore Hub has a USB-C interface for downloading firmware and power during development. Or if you are doing small modifications or updates to firmware, use its remote Over-the-Air update feature.
 
-##Supported Devices
+## Supported Devices
 The GrowMore Hub uses four (4) 3.5mm TRRS connectors to attach devices under control (at least one of the devices must provide power like a TerraBloom EC in-line fan). It supports any fan, lighting, or other device that uses the 0-10v control standard either PWM or analog controlled, such as the TerraBloom ECMF Series and the AC Infinity UIC Platform Series devices such as the Cloudline fan series, humidifiers, heaters, and grow lights (UIC adaptor cable require).
 
 For environmental sensor inputs the GrowMore Hub has both a One-Wire port and three I2C ports which interface to a variety of One-Wire and I2C sensors.
@@ -33,7 +33,7 @@ The One-Wire port allows for a virtually unlimited (limit by total cable length)
 
 The I2C ports support up to two SHT20 Temperature and Humidity Sensors via a TRRS cable or the JST-SH interfaces.  More sensors will be available.
 
-##Specifications:
+## Specifications:
 * Size: Board - 73mm x 42mm with 3mm mounting holes. Case: 84mmx47mm
 
 * Processor: ESP32-S3 with 8MB flash and 2MB PSRAM with WiFi and BT V4.2
@@ -76,8 +76,6 @@ Flashed binary image  has the Home Assistant "api:" enabled with MQTT with.
 with the device powered and connected to your host machine.
 
 * If you did not purchase the Dallas DS18B20 temeprature sensors from us, due to a recent change in ESPHome, the DS18B20 sensor address will need to be discover and a code compilation with the device being flashed.
-
-* For adding Wemos style boards (i.e., relay) with the case installed  use the long (19mm) provided pins.
 
 <img src="work/Fan_Control_Board.0.8.B_rot.PNG" width=400>
 
