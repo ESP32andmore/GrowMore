@@ -1,5 +1,5 @@
 # GrowMore Hub Universal Controller
-### BUY - https://www.tindie.com/products/28875/
+### BUY - https://www.tindie.com/products/35096/
 
 ## Description
 The GrowMore Hub Universal Controller is the first open-source networked 0-10v controller for the "Grower", agriculture, HVAC, and lighting applications. The GrowMore Hub is an ESP32-S3 based controller for temperature and humidity monitoring and control of 0-10v Electronically Commutated (EC) in-line fans, grow lights, and other related devices. This HUB features the powerful ESP32-S3 processor from Expressif, with integrated WiFi and Bluetooth functionality (BR/EDR/BLE).
@@ -99,4 +99,21 @@ This port is the shared I2C port on the TRRS connector above. Please make sure s
 ## I2C JST-SH Port S2 (Board Label J8)
 This port is a distinct I2C bus from the above S1 ports.  YOU MAY add sensors here with the same I2C address such as a second SHT40 sensor.  If you would like to add your own sensors, please make that request to use and we will provide you with support to do so.
 
+##Sensors and expansion accessories for the GrowMore Hub
+* GrowMore Hub DS18B20 Temperature Sensor (https://www.tindie.com/products/35127/).
 
+* GrowMore Hub SHT40 Temperature and Humidity Sensor (https://www.tindie.com/products/35101/).
+
+* GrowMore Hub BME280 Temperature, Humidity, and Pressure Sensor. (TBA)
+
+* GrwoMore Hub AS7341 Spectral Light Sensor. (TBA)
+
+* GrowMore Hub SCD41 CO2 Sensor. (TBA)
+
+* GrowMore Hub THC-S Soil TDR Sensor. (TBA)
+
+* GrowMore Hub UIC Adaptor Cable (https://www.tindie.com/products/35125/).
+
+* GrowMore Hub Sensor Multiplier Cable (https://www.tindie.com/products/35124/).
+
+* GrowMore Hub Sensor Extension Cable (https://www.tindie.com/products/35128/).
