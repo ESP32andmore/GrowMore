@@ -6,7 +6,7 @@ The GrowMore Hub Universal Controller is the first open-source networked 0-10v c
 
 Don’t be tied to one fan or lighting manufacturer’s devices or limited controller solutions, and especially not their non-networked or APP based controllers. The GrowMore Hub is versatile, flexible, and software customizable when required in an easy programming environment
 
-<img src="DesignFiles/3D_top_3_2.jpg" width=400> <img src="DesignFiles/3D_bot_3_2.jpg" width=400>
+<img src="work/GrowMore_3D_top.jpg" width=400> <img src="work/GrowMore_3D_bot.jpg" width=400>
 
 ## Versions
 The GrowMore Hub comes in two versions, first the GrowMore Display Hub with a 2.4” LCD display and touchscreen, that allows device local monitoring and control through the touchscreen, and the second a headless GrowMore Standard Hub for remote control configurations. Moreover, you will be able to control and monitor any headless GrowMore Standard Hub, from one GrowMore Display Hub as well as the locally attached devices and sensors (currently in Beta).
@@ -77,7 +77,7 @@ with the device powered and connected to your host machine.
 
 * If you did not purchase the Dallas DS18B20 temeprature sensors from us, due to a recent change in ESPHome, the DS18B20 sensor address will need to be discover and a code compilation with the device being flashed.
 
-<img src="work/Fan_Control_Board.0.8.B_rot.PNG" width=400>
+<img src="work/GrowMore_html.JPG" width=400>
 
 ## Four Fan Control Ports (TRRS Connector) P1-P4 (Board Label J1-J4)
 Please use the fan manufactuerers provided TRRS cable and firmly connect to the HUB with the ALL PLUGGED FANS DISCONNECTED FROM POWER.
