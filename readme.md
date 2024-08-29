@@ -99,7 +99,7 @@ This port is the shared I2C port on the TRRS connector above. Please make sure s
 ## I2C JST-SH Port S2 (Board Label J8)
 This port is a distinct I2C bus from the above S1 ports.  YOU MAY add sensors here with the same I2C address such as a second SHT40 sensor.  If you would like to add your own sensors, please make that request to use and we will provide you with support to do so.
 
-##Sensors and expansion accessories for the GrowMore Hub
+## Sensors and expansion accessories for the GrowMore Hub
 * GrowMore Hub DS18B20 Temperature Sensor (https://www.tindie.com/products/35127/).
 
 * GrowMore Hub SHT40 Temperature and Humidity Sensor (https://www.tindie.com/products/35101/).
