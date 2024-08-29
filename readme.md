@@ -1,4 +1,4 @@
-# VERSION 2.1 UPDATED WITH NEW FEATURES 
+# GrowMore Hub Universal Controller
 ### BUY - https://www.tindie.com/products/28875/
 
 ## Description
