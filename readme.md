@@ -80,9 +80,9 @@ with the device powered and connected to your host machine.
 <img src="work/GrowMore_html.JPG" width=400>
 
 ## Four Fan Control Ports (TRRS Connector) P1-P4 (Board Label J1-J4)
-Please use the fan manufactuerers provided TRRS cable and firmly connect to the HUB with the ALL PLUGGED FANS DISCONNECTED FROM POWER.
+For Terrabloom fans, please use the fan manufacturer's provided TRRS cable and firmly connect to the HUB with the ALL PLUGGED FANS DISCONNECTED FROM POWER. For AC Infinity fans, please use the fan manufacturer's provided UIC cable with the GrowMore Hub UIC Adaptor Cable available on Tindie.
 
-### Dallas One-wire Port DS (Board Label J5)
+## Dallas One-wire Port DS (Board Label J5)
 You can connect one DS18B20 sensors to the DS port or up to four DS18B20 sensors to the DS port using the GrowMore Hub Sensor Multiplier Cable available on Tindie. You can also extend the cabling distance of the sensor or sensors up to a agregate distance of 16 meters or 52 feet using the GrowMore Hub Sensor Extension Cable available on Tindie.  Again ensure that ALL PLUGGED FANS ARE DISCONNECTED FROM POWER. These ports can be configured from the factory set digital 0-10v PWM signal to a 0-10v analog signal by an internal jumper.
 
 ## USB-C Connector (Board Label J9)
