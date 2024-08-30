@@ -11,6 +11,18 @@ Don’t be tied to one fan or lighting manufacturer’s devices or limited contr
 
 <img src="work/GrowMore_3D_top.jpg" width=400> <img src="work/GrowMore_3D_bot.jpg" width=400>
 
+## Interfaces
+The GrowMore Hub has four flexible individually controlled 0-10V ports, outputting either a 0-10v PWM digital signal or 0-10v analog signals, supporting a wide range of devices from numerous manufacturers that support this common standard. It has the ability to set the PWM or analog signal in 65536 steps unlike the 5 or 6 steps other controllers have. It also has the flexibility to output any maximum voltage level from 5v to 14v. It also monitors fan speed or other device outputs related to each of those device ports.
+
+The GrowMore ports can also be used as DACs outputting 0.15 millivolt resolution at up to 20kHz.
+
+It allows monitoring of temperature, humidity, and even pressure from multiple sensors, zone located, to allow you the flexibility for accurate control of temperature, humidity, and lighting condition for optimal plant growth.
+
+## Open Source, Open Protocols
+Whether you are using the GrowMore Hub for a small grow tent, grow room, greenhouse, or many in an entire facility, the GrowMore Hub is the perfect solution for you. Moreover, since it implements open protocols for control and monitoring, whether you are using one or one hundred, you can control and monitor your installation through one interface.
+
+Besides each Hub having its own webserver though WiFi, accessible from any browser, it supports the ubiquitous MQTT communications protocol and integrates into popular automation software like Home Assistant, Node-Red, ThingsBoard, and many others as well as popular voice assistant interfaces like Amazon Alexa and Google Home.
+
 ## Versions
 The GrowMore Hub comes in two versions, first the GrowMore Display Hub with a 2.4” LCD display and touchscreen, that allows device local monitoring and control through the touchscreen, and the second a headless GrowMore Standard Hub for remote control configurations. Moreover, you will be able to control and monitor any headless GrowMore Standard Hub, from one GrowMore Display Hub as well as the locally attached devices and sensors (currently in Beta).
 
