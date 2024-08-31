@@ -96,6 +96,7 @@ with the device powered and connected to your host machine.
 
 ## Four Fan Control Ports (TRRS Connector) P1-P4 (Board Label J1-J4)
 The HUB supports the 0-10V lighting control standard to control numerous types of device from EC Inline Fans to HVAC equipement, either by a digital 0-10V  PWM signal or an analog 0-10V signal.  For Terrabloom fans, please use the fan manufacturer's provided TRRS cable and firmly seat the cable to ports P1-P4 on the HUB with the ALL PLUGGED FANS DISCONNECTED FROM POWER. For AC Infinity fans, please use the fan manufacturer's provided UIC cable with the GrowMore Hub UIC Adaptor Cable available on Tindie. For other devices that comform to that standard please contact regarding its phsyical connection.
+
 Selection of digital PWM 0-10v or analog 0-10v output can be made by onboard jumpers for each individual port labeled J1-J4. Place the jumper from the center pin to the pin labeled "D" for digital or place the jumper from the center pin to the pin labeled "A" for analog output.
 
 ## Dallas One-wire Port DS (Board Label J5)
