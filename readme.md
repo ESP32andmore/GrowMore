@@ -102,13 +102,13 @@ The HUB supports the 0-10V lighting control standard to control numerous types o
 Selection of digital PWM 0-10v or analog 0-10v output can be made by onboard jumpers for each individual port labeled J1-J4. Place the jumper from the center pin to the pin labeled "PWM" for digital or place the jumper from the center pin to the pin labeled "Analog" for analog output. The factory default is set to "PWM".
 
 ## Dallas One-wire Port DS (Board Label J5)
-You can connect one DS18B20 sensors to the DS port or up to four DS18B20 sensors to the DS port using the GrowMore Hub Sensor Multiplier Cable available on Tindie. You can also extend the cabling distance of the sensor or sensors up to a agregate distance of 16 meters or 52 feet using the GrowMore Hub Sensor Extension Cable available on Tindie.  Again ensure that ALL PLUGGED FANS ARE DISCONNECTED FROM POWER. These ports can be configured from the factory set digital 0-10v PWM signal to a 0-10v analog signal by an internal jumper.
+You can connect one DS18B20 sensors to the DS port or up to four DS18B20 sensors to the DS port using the GrowMore Hub Sensor Multiplier Cable available on Tindie. You can also extend the cabling distance of the sensor or sensors up to a aggregate distance of 16 meters or 52 feet using the GrowMore Hub Sensor Extension Cable available on Tindie.  Again ensure that ALL PLUGGED FANS ARE DISCONNECTED FROM POWER. These ports can be configured from the factory set digital 0-10v PWM signal to a 0-10v analog signal by an internal jumper.
 
 ## USB-C Connector (Board Label J9)
 USB 2.0, 5V, 2amps for power without fans connected and flashing of firmware.
 
 ## I2C TRRS Port S1 (Board Label J6)
-This port is used to connect I2C sensors such as the SHT40 Temperature and Humidity Sensor avalable from us on Tindie, or your own.  The port supplies 3.3v power and uses 3.3v signaling. DO NOT CONNECT 5V SENSORS. You can again use the GrowMore Hub Sensor Multiplier Cable available on Tindie to add mutilple sensors as long as I2C addressing does not conflict. You can also extend the cabling distance of sensors up to a agregate distance of 8 meters or 26 feet using the GrowMore Hub Sensor Extension Cable available on Tindie.
+This port is used to connect I2C sensors such as the SHT40 Temperature and Humidity Sensor avalable from us on Tindie, or your own.  The port supplies 3.3v power and uses 3.3v signaling. DO NOT CONNECT 5V SENSORS. You can again use the GrowMore Hub Sensor Multiplier Cable available on Tindie to add mutilple sensors as long as I2C addressing does not conflict. You can also extend the cabling distance of sensors up to a aggregate distance of 8 meters or 26 feet using the GrowMore Hub Sensor Extension Cable available on Tindie.
 
 It shares the same I2C bus as the JST-SH port also labeled S1. Currently the HUB's firmware supports the SHT40 Sensor but an easy modification of the firware will allow other sensors.  Please make that request to use and we will provide you with support to do so.
 
