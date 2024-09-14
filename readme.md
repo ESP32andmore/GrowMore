@@ -73,6 +73,8 @@ The I2C ports support up to two SHT20 Temperature and Humidity Sensors via a TRR
 
 ## Setup and Configuration
 
+* The Flash and Reset Buttons are recessed on the USB end of the GrowMore Hub. The inner button is the Reset Button and the Flash Button is to the outside. Use a large paper clip or similar diameter instrument to depress then if required.
+
 * Power is supplied by a connected EC inline fan, connected to ports P1-P4. It is HIGHLY SUGGESTED YOU ALWAYS POWER ALL YOUR FAN OFF WHEN CONNECTING DEVICES TO THE GROWMORE HUB.  Although the HUB has protections in place, the is the wise thing to do otherwise damage to the HUB many occur.
 
 * To place on WiFi network use 2.4G phone to connect to "GrowMore Fallback Hotspot" with password "esphome1".. Once connected to your WiFi network, to access the webpage of
