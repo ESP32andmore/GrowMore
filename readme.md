@@ -5,7 +5,7 @@
 ## Description
 The GrowMore Hub Universal Controller is the first open-source networked 0-10v controller for the "Grower", agriculture, HVAC, and lighting applications. The GrowMore Hub is an ESP32-S3 based controller for temperature and humidity monitoring and control of 0-10v Electronically Commutated (EC) in-line fans, grow lights, and other related devices. This HUB features the powerful ESP32-S3 processor from Expressif, with integrated WiFi and Bluetooth functionality (BR/EDR/BLE).
 
-Don’t be tied to one fan or lighting manufacturer’s devices or limited controller solutions, and especially not their non-networked or APP based controllers. The GrowMore Hub is versatile, flexible, and software customizable when required in an easy programming environment
+Don’t be tied to one fan or lighting manufacturer’s devices or limited controller solutions, and especially not their non-networked or APP based controllers. The GrowMore Hub is versatile, flexible, and software customizable when required in an easy programming environment.
 
 <img src="work/GrowMore_3D_top.jpg" width=400> <img src="work/GrowMore_3D_bot.jpg" width=400>
 
