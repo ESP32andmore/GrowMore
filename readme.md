@@ -81,7 +81,9 @@ the device browse to http://growmore.local
 * Device is flashed with an exmaple ESPhome binary image that has manual control over fans 
 and automatic control which can be enabled based the target temperature setting.  Four temperature
 sensors control each of the four PWM fan connectors.
-Flashed binary image  has the Home Assistant "api:" enabled with MQTT with.
+Flashed binary image  has the Home Assistant "api:" enabled with MQTT disabled.
+
+* For Home Assistant use encryption key: "itqzvhZMJj8wuTJX0GTOuL/ffESFROzUlmcO0u2+sfo="
 
 * For customization, please make a request to esp32andmore@gmail.com for source code.
 
