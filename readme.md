@@ -75,10 +75,10 @@ The I2C ports support up to two SHT20 Temperature and Humidity Sensors via a TRR
 
 * Power is supplied by a connected EC inline fan, connected to ports P1-P4. It is HIGHLY SUGGESTED YOU ALWAYS POWER ALL YOUR FAN OFF WHEN CONNECTING DEVICES TO THE GROWMORE HUB.  Although the HUB has protections in place, the is the wise thing to do otherwise damage to the HUB many occur.
 
-* To place on WiFi network use 2.4G phone to connect to "GrowMore Fallback Hotspot" with password "esphome1".. Once connected to your WiFi network, to access the webpage of
+* To place on WiFi network use 2.4G phone to connect to "GrowMore Fallback Hotspot" with password "esphome1". Once connected to your WiFi network, to access the webpage of
 the device browse to http://growmore.local
 
-* Device is flashed with an exmaple ESPhome binary image that has manual control over fans 
+* Device is flashed with an example ESPhome binary image that has manual control over fans 
 and automatic control which can be enabled based the target temperature setting.  Four temperature
 sensors control each of the four PWM fan connectors.
 Flashed binary image  has the Home Assistant "api:" enabled with MQTT disabled.
@@ -87,7 +87,7 @@ Flashed binary image  has the Home Assistant "api:" enabled with MQTT disabled.
 
 * For customization, please make a request to esp32andmore@gmail.com for source code.
 
-* Also update WiFi and MQTT server credentials as required.
+* To place on WiFi network use 2.4G phone to connect to "GrowMore Fallback Hotspot" with password "esphome1". Once connected to your WiFi network, to access the webpage of the device browse to http://growmore.local.
 
 * Flash over USB or ethernet. To flash over USB use ESPhome Web Flasher https://web.esphome.io/
 with the device powered and connected to your host machine.
