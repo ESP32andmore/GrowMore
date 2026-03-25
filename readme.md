@@ -123,12 +123,12 @@ This port is a distinct I2C bus from the above S1 ports.  YOU MAY add sensors he
 | ------ | ------- | --------- | ---------------- |
 | GPIO02 | Output	 | LED			 | Status LED/OB    |
 | GPIO05 | Bidir   | Dallas		 | 3.5mm/J5.2       |
-GPIO06	Output	PWM1			3.5mm/J1.3
-GPIO07	Output	PWM2			3.5mm/J2.3
-GPIO08	BiDir	I2C_1_SDA		Sensor/J8.3
-GPIO09	Output	I2C_1_SCL		Sensor/J8.4
-GPIO10	Output	SPI_1_CS		TFT Display/P1
-GPIO11	Output	SPI_1_MOSI		TFT Display/P1
+| GPIO06 | Output  | PWM1	     | 3.5mm/J1.3       |
+| GPIO07 | Output	 | PWM2			 | 3.5mm/J2.3       |
+| GPIO08 | BiDir   | I2C_1_SDA | Sensor/J8.3      |
+| GPIO09 | Output  | I2C_1_SCL | Sensor/J8.4      |
+| GPIO10 | Output  | SPI_1_CS  | TFT Display/P1   |
+| GPIO11 | Output  | SPI_1_MOSI | TFT Display/P1  |
 GPIO12	Output	SPI_1_SCK		TFT Display/P1
 GPIO13	Input	SPI_1_MISO		TFT Display/P1
 GPIO14	Output	DIS_DC			TFT Display/P1
