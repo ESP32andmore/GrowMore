@@ -119,15 +119,15 @@ This port is the shared I2C port on the TRRS connector above. Please make sure s
 This port is a distinct I2C bus from the above S1 ports.  YOU MAY add sensors here with the same I2C address such as a second SHT40 sensor.  If you would like to add your own sensors, please make that request to use and we will provide you with support to do so.
 
 ## ESP32 I/O Mapping
-| GPIO	 | Dir.	   | Signal     | Device/Conn     |
-| ------ | ------- | ---------- | ----------------|
-| GPIO02 | Output	 | LED			  | Status LED/OB   |
-| GPIO05 | Bidir   | Dallas		  | 3.5mm/J5.2      |
-| GPIO06 | Output  | PWM1	      | 3.5mm/J1.3      |
-| GPIO07 | Output	 | PWM2			  | 3.5mm/J2.3      |
-| GPIO08 | BiDir   | I2C_1_SDA  | Sensor/J8.3     |
-| GPIO09 | Output  | I2C_1_SCL  | Sensor/J8.4     |
-| GPIO10 | Output  | SPI_1_CS   | TFT Display/P1  |
+| GPIO	 | Dir.	   | Signal     | Type       | Connector   |
+| ------ | ------- | ---------- | ---------- | ----------- |
+| GPIO02 | Output	 | LED			  | Status LED | On Bord     |
+| GPIO05 | Bidir   | Dallas		  | 3.5mm      | J5.2        |
+| GPIO06 | Output  | PWM1	      | 3.5mm      | J1.3        |
+| GPIO07 | Output	 | PWM2			  | 3.5mm      | J2.3        |
+| GPIO08 | BiDir   | I2C_1_SDA  | Sensor     | J8.3        |
+| GPIO09 | Output  | I2C_1_SCL  | Sensor     | J8.4        |
+| GPIO10 | Output  | SPI_1_CS   | TFT Display| P1.3        |
 | GPIO11 | Output  | SPI_1_MOSI | TFT Display/P1  |
 | GPIO12 | Output  | SPI_1_SCK	|	TFT Display/P1  |
 | GPIO13 | Input   | SPI_1_MISO	|	TFT Display/P1  |
