@@ -129,24 +129,24 @@ This port is a distinct I2C bus from the above S1 ports.  YOU MAY add sensors he
 | GPIO09 | Output  | I2C_1_SCL | Sensor/J8.4      |
 | GPIO10 | Output  | SPI_1_CS  | TFT Display/P1   |
 | GPIO11 | Output  | SPI_1_MOSI | TFT Display/P1  |
-GPIO12	Output	SPI_1_SCK		TFT Display/P1
-GPIO13	Input	SPI_1_MISO		TFT Display/P1
-GPIO14	Output	DIS_DC			TFT Display/P1
-GPIO15	Output	PWM3			3.5mm/J3.3
-GPIO16	Output	PWM4			3.5mm/J4.3
-GPIO17	BiDir	I2C_0_SDA		Sensor/J7.3
-GPIO18	Output	I2C_0_SCL		Sensor/J7.4
-GPIO19	BiDir	USB_DP-			USB-C/J9
-GPIO20	BiDir	USB_DP+			USB-C/J9
-GPIO21	Output	DIS_RST			TFT Display/P1
-GPIO39	Output	TS_IRQ			Touch Screen/P1
-GPIO40	Output	SD_CS			Touch Screen/P1
-GPIO41	Input	Tach			J1.2
-GPIO42	Input	Tach			J2.2
-GPIO43	Input	Tach			J3.2
-GPIO44	Input	Tach			J4.2
-GPIO47	Output	DIS_BL			TFT Display/P1
-GPIO48	Output	TS_CS			Touch Screen/P1
+| GPIO12 | Output  | SPI_1_SCK	|	TFT Display/P1  |
+| GPIO13 | Input   | SPI_1_MISO	|	TFT Display/P1  |
+| GPIO14 | Output  | DIS_DC			| TFT Display/P1  |
+| GPIO15 | Output  | PWM3			  | 3.5mm/J3.3      |
+| GPIO16 | Output  | PWM4			  | 3.5mm/J4.3      |
+| GPIO17 | BiDir   | I2C_0_SDA  |	Sensor/J7.3     |
+| GPIO18 | Output  | I2C_0_SCL  |	Sensor/J7.4     |
+| GPIO19 | BiDir   | USB_DP-	  |	USB-C/J9        |
+| GPIO20 | BiDir   | USB_DP+    |	USB-C/J9        |
+| GPIO21 | Output  | DIS_RST    |	TFT Display/P1  |
+| GPIO39 | Output  | TS_IRQ     |	Touch Screen/P1 |
+| GPIO40 | Output  | SD_CS			| Touch Screen/P1 |
+| GPIO41 | Input   | Tach1			| 3.5mm/J1.2      |
+| GPIO42 | Input   | Tach2			| 3.5mm/J2.2      |
+| GPIO43 | Input	 | Tach3			| 3.5mm/J3.2      |
+| GPIO44 | Input   | Tach4			| 3.5mm/J4.2      |
+| GPIO47 | Output  | DIS_BL     |	TFT Display/P1  |
+| GPIO48 | Output  | TS_CS			| Touch Screen/P1 |
 
 
 
