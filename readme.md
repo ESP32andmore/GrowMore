@@ -147,7 +147,14 @@ This port is a distinct I2C bus from the above S1 ports.  YOU MAY add sensors he
 | GPIO47 | Output  | DIS_BL     |	TFT Display| P1.8        |
 | GPIO48 | Output  | TS_CS			| Touchscreen| P1.11       |
 
-
+J1.1, J2.1, J3.1, J4.1 - Ground
+J1.4, J2.4, J3.4, J4.4 - Nominal +12VDC Input Power
+J5.1 - Ground
+J5.4 - +3.3VDC Output Power
+J6.1 - Ground
+J6.4 - +3.3VDC Output Power
+J7.1, J8.1 - Ground
+J7.4, J8.5 - +3.3VDC Output Power
 
 ## Sensors and Expansion Accessories for the GrowMore Hub
 * GrowMore Hub DS18B20 Temperature Sensor (https://www.tindie.com/products/35127/).
