@@ -118,35 +118,34 @@ This port is the shared I2C port on the TRRS connector above. Please make sure s
 ## I2C JST-SH Port S2 (Board Label J8)
 This port is a distinct I2C bus from the above S1 ports.  YOU MAY add sensors here with the same I2C address such as a second SHT40 sensor.  If you would like to add your own sensors, please make that request to use and we will provide you with support to do so.
 
-## ESP32 I/O Mapping
-| GPIO	 | Dir.	   | Signal     | Type       | Connector   |
+## ESP32 I/O Signal Mapping
+| GPIO	 | Dir.	   | Signal     | Type       | Conn.Pin   |
 | ------ | ------- | ---------- | ---------- | ----------- |
-| GPIO02 | Output	 | LED			  | Status LED | On Bord     |
+| GPIO02 | Output	 | LED			  | Status LED | On Board    |
 | GPIO05 | Bidir   | Dallas		  | 3.5mm      | J5.2        |
 | GPIO06 | Output  | PWM1	      | 3.5mm      | J1.3        |
 | GPIO07 | Output	 | PWM2			  | 3.5mm      | J2.3        |
-| GPIO08 | BiDir   | I2C_1_SDA  | Sensor     | J8.3        |
-| GPIO09 | Output  | I2C_1_SCL  | Sensor     | J8.4        |
+| GPIO08 | BiDir   | I2C_1_SDA  | JST        | J8.3        |
+| GPIO09 | Output  | I2C_1_SCL  | JST        | J8.4        |
 | GPIO10 | Output  | SPI_1_CS   | TFT Display| P1.3        |
-| GPIO11 | Output  | SPI_1_MOSI | TFT Display/P1  |
-| GPIO12 | Output  | SPI_1_SCK	|	TFT Display/P1  |
-| GPIO13 | Input   | SPI_1_MISO	|	TFT Display/P1  |
-| GPIO14 | Output  | DIS_DC			| TFT Display/P1  |
-| GPIO15 | Output  | PWM3			  | 3.5mm/J3.3      |
-| GPIO16 | Output  | PWM4			  | 3.5mm/J4.3      |
-| GPIO17 | BiDir   | I2C_0_SDA  |	Sensor/J7.3     |
-| GPIO18 | Output  | I2C_0_SCL  |	Sensor/J7.4     |
-| GPIO19 | BiDir   | USB_DP-	  |	USB-C/J9        |
-| GPIO20 | BiDir   | USB_DP+    |	USB-C/J9        |
-| GPIO21 | Output  | DIS_RST    |	TFT Display/P1  |
-| GPIO39 | Output  | TS_IRQ     |	Touch Screen/P1 |
-| GPIO40 | Output  | SD_CS			| Touch Screen/P1 |
-| GPIO41 | Input   | Tach1			| 3.5mm/J1.2      |
-| GPIO42 | Input   | Tach2			| 3.5mm/J2.2      |
-| GPIO43 | Input	 | Tach3			| 3.5mm/J3.2      |
-| GPIO44 | Input   | Tach4			| 3.5mm/J4.2      |
-| GPIO47 | Output  | DIS_BL     |	TFT Display/P1  |
-| GPIO48 | Output  | TS_CS			| Touch Screen/P1 |
+| GPIO11 | Output  | SPI_1_MOSI | TFT Display| P1.6        |
+| GPIO12 | Output  | SPI_1_SCK	|	TFT Display| P1.7, P1.10 |
+| GPIO13 | Input   | SPI_1_MISO	|	TFT Display| P1.9, P1.13 |
+| GPIO14 | Output  | DIS_DC			| TFT Display| P1.5        |
+| GPIO15 | Output  | PWM3			  | 3.5mm      | J3.3        |
+| GPIO16 | Output  | PWM4			  | 3.5mm      | J4.3        |
+| GPIO17 | BiDir   | I2C_0_SDA  |	3.5mm/JST  | J6.2, J7.3  |
+| GPIO18 | Output  | I2C_0_SCL  |	3.5mm/JST  | J6.3, J7.4  |
+| GPIO19 | BiDir   | USB_DP-	  |	USB-C      | J9.A7, J9.B7|
+| GPIO20 | BiDir   | USB_DP+    |	USB-C      | J9.A6, J9.B6|
+| GPIO21 | Output  | DIS_RST    |	TFT Display| P1.4        |
+| GPIO39 | Output  | TS_IRQ     |	Touchscreen| P1.14       |
+| GPIO41 | Input   | Tach1			| 3.5mm      | J1.2        |
+| GPIO42 | Input   | Tach2			| 3.5mm      | J2.2        |
+| GPIO43 | Input	 | Tach3			| 3.5mm      | J3.2        |
+| GPIO44 | Input   | Tach4			| 3.5mm      | J4.2        |
+| GPIO47 | Output  | DIS_BL     |	TFT Display| P1.8        |
+| GPIO48 | Output  | TS_CS			| Touchscreen| P1.11       |
 
 
 
